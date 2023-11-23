@@ -1,4 +1,4 @@
-//your JS code here. If required.
-let p=document.getElementByTagName("body");
-
-p.innerText="DOM load success";
+function onDOMLoad() {
+        document.body.textContent = "DOM load success";
+      }
+      document.addEventListener("DOMContentLoaded", onDOMLoad);
